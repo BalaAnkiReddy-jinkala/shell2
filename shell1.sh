@@ -1,9 +1,7 @@
-for a in  1 2 3 4 5 6 7 8 9 10 11
-do
-  if [$a == 5]
-  then
-    break
-  fi
-  echo "Iteration $a"
-done
-
+a=10
+b=20
+if [ $a -eq $b ];then
+  echo "the first statement is true"
+else
+  echo "the second statement is true"
+fi
